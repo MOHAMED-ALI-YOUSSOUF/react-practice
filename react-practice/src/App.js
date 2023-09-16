@@ -15,7 +15,10 @@ import DigitalSaat from "./components/DigitalSaat/DigitalSaat";
 import NavBar from "./components/Navbar/Navbar";
 import UseEffect from "./components/UseEffect/UseEffect";
 import Counter from "./components/UseState/Counter";
+import Fetch2 from "./components/fetch/Fetch";
 import CounterTitle from "./components/sayac/CounterTitle";
+import UseRef from "./components/useRef/useRef";
+
 
 function App() {
   return (
@@ -36,6 +39,8 @@ function App() {
       <UseEffect />
       <CounterTitle />
       <DigitalSaat/>
+      <UseRef/>
+      <Fetch2/>
     </div>
   );
 }
