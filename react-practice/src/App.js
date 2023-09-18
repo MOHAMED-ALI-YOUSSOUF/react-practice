@@ -10,6 +10,7 @@
 // import ProductMain from "./components/products.shop/product-main/product-main";
 // import Ulke from "./components/c7/Ulke";
 
+import Axios from "./components/Axios/Country";
 import Birthday from "./components/Birthday/Birthday";
 import DigitalSaat from "./components/DigitalSaat/DigitalSaat";
 import NavBar from "./components/Navbar/Navbar";
@@ -41,6 +42,7 @@ function App() {
       <DigitalSaat/>
       <UseRef/>
       <Fetch2/>
+      <Axios/>
     </div>
   );
 }
