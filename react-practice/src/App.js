@@ -13,12 +13,14 @@
 import Axios from "./components/Axios/Country";
 import Birthday from "./components/Birthday/Birthday";
 import DigitalSaat from "./components/DigitalSaat/DigitalSaat";
+import ContactForm from "./components/Form/ContactForm";
+// import Form from "./components/Form/Form";
 import NavBar from "./components/Navbar/Navbar";
 import UseEffect from "./components/UseEffect/UseEffect";
 import Counter from "./components/UseState/Counter";
 import Fetch2 from "./components/fetch/Fetch";
 import CounterTitle from "./components/sayac/CounterTitle";
-import UseRef from "./components/useRef/useRef";
+// import UseRef from "./components/useRef/useRef";
 
 
 function App() {
@@ -40,9 +42,10 @@ function App() {
       <UseEffect />
       <CounterTitle />
       <DigitalSaat/>
-      <UseRef/>
+      {/* <UseRef/> */}
       <Fetch2/>
-      <Axios/>
+      {/* <Form/> */}
+      <ContactForm/>
     </div>
   );
 }
