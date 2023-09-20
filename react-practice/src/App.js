@@ -14,6 +14,8 @@ import Axios from "./components/Axios/Country";
 import Birthday from "./components/Birthday/Birthday";
 import DigitalSaat from "./components/DigitalSaat/DigitalSaat";
 import ContactForm from "./components/Form/ContactForm";
+import Form5 from "./components/Form/Form5";
+import FormikYup from "./components/Form/FormikYup";
 // import Form from "./components/Form/Form";
 import NavBar from "./components/Navbar/Navbar";
 import UseEffect from "./components/UseEffect/UseEffect";
@@ -46,6 +48,8 @@ function App() {
       <Fetch2/>
       {/* <Form/> */}
       <ContactForm/>
+      <Form5/>
+      <FormikYup/>
     </div>
   );
 }
