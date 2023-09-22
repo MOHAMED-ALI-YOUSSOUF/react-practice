@@ -10,18 +10,18 @@
 // import ProductMain from "./components/products.shop/product-main/product-main";
 // import Ulke from "./components/c7/Ulke";
 
-import Axios from "./components/Axios/Country";
-import Birthday from "./components/Birthday/Birthday";
-import DigitalSaat from "./components/DigitalSaat/DigitalSaat";
-import ContactForm from "./components/Form/ContactForm";
-import Form5 from "./components/Form/Form5";
-import FormikYup from "./components/Form/FormikYup";
-// import Form from "./components/Form/Form";
-import NavBar from "./components/Navbar/Navbar";
-import UseEffect from "./components/UseEffect/UseEffect";
-import Counter from "./components/UseState/Counter";
-import Fetch2 from "./components/fetch/Fetch";
-import CounterTitle from "./components/sayac/CounterTitle";
+// import Axios from "./components/Axios/Country";
+// import Birthday from "./components/Birthday/Birthday";
+// import DigitalSaat from "./components/DigitalSaat/DigitalSaat";
+// import ContactForm from "./components/Form/ContactForm";
+// import Form5 from "./components/Form/Form5";
+// import FormikYup from "./components/Form/FormikYup";
+// // import Form from "./components/Form/Form";
+// import NavBar from "./components/Navbar/Navbar";
+// import UseEffect from "./components/UseEffect/UseEffect";
+// import Counter from "./components/UseState/Counter";
+// import Fetch2 from "./components/fetch/Fetch";
+// import CounterTitle from "./components/sayac/CounterTitle";
 // import UseRef from "./components/useRef/useRef";
 
 
@@ -38,18 +38,18 @@ function App() {
       {/* <State />
       <Counter />
       <StudentCard /> */}
-      <NavBar />
+      {/* <NavBar />
       <Counter />
       <Birthday />
       <UseEffect />
       <CounterTitle />
-      <DigitalSaat/>
+      <DigitalSaat/> */}
       {/* <UseRef/> */}
-      <Fetch2/>
+      {/* <Fetch2/> */}
       {/* <Form/> */}
-      <ContactForm/>
+      {/* <ContactForm/>
       <Form5/>
-      <FormikYup/>
+      <FormikYup/> */}
     </div>
   );
 }
